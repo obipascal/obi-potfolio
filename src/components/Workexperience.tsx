@@ -14,10 +14,12 @@ export default function Workexperience() {
 				<li>
 					<div className="flex-start flex items-center">
 						<div className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-gray-500 dark:bg-sky-500"></div>
-						<h4 className="-mt-2 text-xl font-semibold mr-1">Co-Founder/CEO</h4>
-						<h4 className="text-lg font-semibold">
-							<em className=""> - Bilma Technologies Ltd</em>
-						</h4>
+						<div className="">
+							<h4 className="text-xl font-semibold">Co-Founder/CEO</h4>
+							<h4 className="text-lg font-semibold">
+								<em className="">Bilma Technologies Ltd</em>
+							</h4>
+						</div>
 					</div>
 					<div className="mb-6 ml-6 pb-6">
 						<a
@@ -64,10 +66,12 @@ export default function Workexperience() {
 				<li>
 					<div className="flex-start flex items-center">
 						<div className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-gray-500 dark:bg-sky-500"></div>
-						<h4 className="-mt-2 text-xl font-semibold mr-1">Frontend Developer</h4>
-						<h4 className="text-lg font-semibold">
-							<em className=""> - Beekle&apos;s</em>
-						</h4>
+						<div className="">
+							<h4 className="-mt-2 text-xl font-semibold">Frontend Developer</h4>
+							<h4 className="text-lg font-semibold">
+								<em className="">Beekle&apos;s</em>
+							</h4>
+						</div>
 					</div>
 					<div className="mb-6 ml-6 pb-6">
 						<a
@@ -108,10 +112,12 @@ export default function Workexperience() {
 				<li>
 					<div className="flex-start flex items-center">
 						<div className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-gray-500 dark:bg-sky-500"></div>
-						<h4 className="-mt-2 text-xl font-semibold mr-1">Backend Developer</h4>
-						<h4 className="text-lg font-semibold">
-							<em className=""> - AirPay Global</em>
-						</h4>
+						<div className="">
+							<h4 className="-mt-2 text-xl font-semibold">Backend Developer</h4>
+							<h4 className="text-lg font-semibold">
+								<em className="">AirPay Global</em>
+							</h4>
+						</div>
 					</div>
 					<div className="mb-6 ml-6 pb-6">
 						<a
@@ -147,10 +153,12 @@ export default function Workexperience() {
 				<li>
 					<div className="flex-start flex items-center">
 						<div className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-gray-500 dark:bg-sky-500"></div>
-						<h4 className="-mt-2 text-xl font-semibold mr-1">Backend Developer</h4>
-						<h4 className="text-lg font-semibold">
-							<em className=""> - LEGACY EVENTS</em>
-						</h4>
+						<div className="">
+							<h4 className="-mt-2 text-xl font-semibold">Backend Developer</h4>
+							<h4 className="text-lg font-semibold">
+								<em className="">LEGACY EVENTS</em>
+							</h4>
+						</div>
 					</div>
 					<div className="mb-6 ml-6 pb-6">
 						<a
