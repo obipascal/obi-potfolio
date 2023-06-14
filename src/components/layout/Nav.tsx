@@ -1,8 +1,8 @@
 import React from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { getTheme, setTheme } from "redux/reducers/appSlice"
-import IconSunFill from "./icons/IconSunFill"
-import IconMoonSharp from "./icons/IconMoonSharp"
+import IconSunFill from "../icons/IconSunFill"
+import IconMoonSharp from "../icons/IconMoonSharp"
 
 export default function Nav() {
 	const theme = useSelector(getTheme)
