@@ -39,7 +39,7 @@ export default function Nav() {
 
 	return (
 		<nav className={"sticky shadow-sm top-0 left-0 right-0 backdrop-blur w-full  p-2 z-50 bg-slate-50/50 dark:bg-slate-900/75"}>
-			<div className="flex item-center justify-end">
+			<div className="flex item-center justify-center">
 				<div className="p-1">
 					<h1 className="p-2 flex items-center text-slate-900 dark:text-slate-50">
 						{theme === "dark" && (
