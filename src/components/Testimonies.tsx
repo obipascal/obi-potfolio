@@ -11,7 +11,7 @@ export default function Testimonies({ data }: TestimoniesProps) {
 	return (
 		<section className="p-5 my-8 flex flex-col items-center justify-center min-h-screen">
 			<div className="">
-				<h3 className="mb-6 ml-3 text-2xl font-bold text-neutral-700 dark:text-neutral-300">What my exployers say about me...</h3>
+				<h3 className="mb-6 ml-3 text-2xl font-bold text-neutral-700 dark:text-neutral-300">What my exployers, colleagues and clients say about me...</h3>
 
 				<ol className="border-l-2 dark:border-sky-100 border-gray-500">
 					{data && (
