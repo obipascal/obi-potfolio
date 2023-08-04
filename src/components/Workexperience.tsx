@@ -10,12 +10,60 @@ export default function Workexperience() {
 				<XDivider classes="mb-5 border-2" />
 			</div>
 			<ol className="border-l-2 border-gray-500 dark:border-sky-500">
-				{/* <!--First item--> */}
+			<li>
+					<div className="flex-start flex items-center">
+						<div className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-gray-500 dark:bg-sky-500"></div>
+						<div className="">
+							<h4 className="text-xl font-semibold">Full-stack Developer</h4>
+							<h4 className="text-lg font-semibold">
+								<em className="">JCK Consulting Ltd</em>
+							</h4>
+						</div>
+					</div>
+					<div className="mb-6 ml-6 pb-6">
+						<a
+							href="#!"
+							className="text-sm text-sky transition duration-150 ease-in-out hover:text-sky-600 focus:text-sky-600 active:text-sky-700 dark:text-sky-400 dark:hover:text-sky-500 dark:focus:text-sky-500 dark:active:text-sky-600"
+						>
+							June 2023 - July 2023 (1 mos) | UK
+						</a>
+						<div className="mb-4 mt-2 text-neutral-600 dark:text-neutral-300">
+							<ul className="list-disc pl-8">
+								<li className="">
+								Successfully led the end-to-end development and deployment of the JCK Consulting Ltd Client Portal, meeting all project milestones and delivering the final product on time and within budget.
+								</li>
+								<li className="">
+								Increased client satisfaction by 35% through the implementation of an intuitive user interface (UI) and seamless user experience (UX) on the portal, enhancing client engagement and retention.
+								</li>
+								<li className="">
+									Directed and managed a team of professionals, overseeing the implementation and execution of BilmaPay&apos;s vision, resulting in successful product development and market entry.
+								</li>
+								<li className="">
+								Achieved a 50% reduction in manual data entry and processing time for the consulting team by automating key processes within the portal, improving operational efficiency and accuracy.
+								</li>
+								<li className="">
+								Ensured data security and privacy compliance, achieving a 100% passing score in third-party security audits and providing clients with confidence in the protection of their sensitive information.
+								</li>
+							</ul>
+						</div>
+						<Link
+							href={"https://www.jckconsulting.co.uk"}
+							target="_blank"
+							role="button"
+							className="inline-block rounded bg-sky-500 px-4 pb-[5px] pt-[6px] text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-sky-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-sky-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-sky-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+							data-te-ripple-init
+							data-te-ripple-color="light"
+						>
+							View project
+						</Link>
+					</div>
+				</li>
+
 				<li>
 					<div className="flex-start flex items-center">
 						<div className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-gray-500 dark:bg-sky-500"></div>
 						<div className="">
-							<h4 className="text-xl font-semibold">Co-Founder/CEO</h4>
+							<h4 className="text-xl font-semibold">Full-stack Developer</h4>
 							<h4 className="text-lg font-semibold">
 								<em className="">Bilma Technologies Ltd</em>
 							</h4>
@@ -26,7 +74,7 @@ export default function Workexperience() {
 							href="#!"
 							className="text-sm text-sky transition duration-150 ease-in-out hover:text-sky-600 focus:text-sky-600 active:text-sky-700 dark:text-sky-400 dark:hover:text-sky-500 dark:focus:text-sky-500 dark:active:text-sky-600"
 						>
-							Sep 2022 - Present (10 mos) | Abuja, Nigeria
+							June 2022 - June (12 mos) | Abuja, Nigeria
 						</a>
 						<div className="mb-4 mt-2 text-neutral-600 dark:text-neutral-300">
 							<ul className="list-disc pl-8">
