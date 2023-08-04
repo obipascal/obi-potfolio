@@ -46,7 +46,7 @@ export default function Layout({ children, metaData }: LayoutProps) {
 				<meta name="theme-color" content="#035e99" />
 
 				<meta name="twitter:card" content="summary" />
-				<meta name="twitter:url" content={metaData?.url ?? "https://beevra.online"} />
+				<meta name="twitter:url" content={metaData?.url ?? "https://www.beevra.online"} />
 				<meta name="twitter:title" content={metaData?.title ?? "Obi, Pascal Banjuare"} />
 				<meta
 					name="twitter:description"
@@ -58,7 +58,7 @@ export default function Layout({ children, metaData }: LayoutProps) {
                     staying up-to-date with the latest technologies.`
 					}
 				/>
-				<meta name="twitter:image" content={metaData?.img ?? "https://beevra.online/logo.png"} />
+				<meta name="twitter:image" content={metaData?.img ?? "https://www.beevra.online/logo.png"} />
 				<meta name="twitter:creator" content="@banjuare_obi" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content={metaData?.title ?? "Obi, Pascal Banjuare - Full-stack Web Developer"} />
@@ -73,8 +73,8 @@ export default function Layout({ children, metaData }: LayoutProps) {
 					}
 				/>
 				<meta property="og:site_name" content={metaData?.name ?? "Obi, Pascal Banjuare"} />
-				<meta property="og:url" content={metaData?.url ?? "https://beevra.online"} />
-				<meta property="og:image" content={metaData?.img ?? "https://beevra.online/logo.png"} />
+				<meta property="og:url" content={metaData?.url ?? "https://www.beevra.online"} />
+				<meta property="og:image" content={metaData?.img ?? "https://www.beevra.online/logo.png"} />
 			</Head>
 			<main className={` min-h-screen dark:bg-slate-900 bg-light ${inter}`}>
 				<Nav />
